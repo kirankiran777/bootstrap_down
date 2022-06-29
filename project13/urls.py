@@ -20,4 +20,5 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('bootstrap_down/',bootstrap_down,name='bootstrap_down'),
+    path('cdn/',cdn,name='cdn'),
 ]
